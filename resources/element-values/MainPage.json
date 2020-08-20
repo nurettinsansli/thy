@@ -1,0 +1,231 @@
+[
+  {
+    "key": "OK",
+    "androidValue":"frPrivacy_btnAccept",
+    "androidType": "id",
+    "androidIndex": "-",
+    "iosValue": "-",
+    "iosType": "-"
+  },
+  {
+    "key": "OK",
+    "androidValue":"acMain_btnBooking",
+    "androidType": "id",
+    "androidIndex": "-",
+    "iosValue": "-",
+    "iosType": "-"
+  },
+  {
+    "key": "oneway",
+    "androidValue":"frDashboard_tvOneWay",
+    "androidType": "id",
+    "androidIndex": "-",
+    "iosValue": "-",
+    "iosType": "-"
+  },
+  {
+    "key": "from",
+    "androidValue": "frDashboard_llFrom",
+    "androidType": "id",
+    "androidIndex": "-",
+    "iosValue": "-",
+    "iosType": "-"
+  },
+  {
+    "key": "search-departure-airport",
+    "androidValue": "frAirportSelection_etSearch",
+    "androidType": "id",
+    "androidIndex": "-",
+    "iosValue": "-",
+    "iosType": "-"
+  },
+  {
+    "key": "click-departure-airport",
+    "androidValue": "itemAirport_tvBottom",
+    "androidType": "id",
+    "androidIndex": "-",
+    "iosValue": "-",
+    "iosType": "-"
+  },
+  {
+    "key": "toClick",
+    "androidValue": "frDashboard_llTo",
+    "androidType": "id",
+    "androidIndex": "-",
+    "iosValue": "-",
+    "iosType": "-"
+  },
+  {
+    "key": "toSearch",
+    "androidValue": "frAirportSelection_etSearch",
+    "androidType": "id",
+    "androidIndex": "-",
+    "iosValue": "-",
+    "iosType": "-"
+  },
+  {
+    "key": "toSelect",
+    "androidValue": "itemAirport_tvBottom",
+    "androidType": "id",
+    "androidIndex": "-",
+    "iosValue": "-",
+    "iosType": "-"
+  },
+  {
+    "key": "date",
+    "androidValue": "dateWidget_tvDateDay",
+    "androidType": "class",
+    "androidIndex": "-",
+    "iosValue": "-",
+    "iosType": "-"
+  },
+  {
+    "key": "SelectDateView",
+    "androidValue": "frDashboard_rlDeparture",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "btnDatedone",
+    "androidValue": "frDashboard_btnDone",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "increaseAdult",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.LinearLayout/android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.FrameLayout[7]/android.widget.TextView",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+
+  {
+    "key": "btnSearchFlight",
+    "androidValue": "frDashboard_btnSearch",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "flight",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/androidx.recyclerview.widget.RecyclerView[2]/android.view.ViewGroup[1]/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "ecoflight",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/androidx.recyclerview.widget.RecyclerView[2]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.FrameLayout/android.view.ViewGroup",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "btnContinue",
+    "androidValue": "frFlightSearch_btnContinue",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "addPassenger",
+    "androidValue": "frPickPassengerlistitemadd_tvShortName",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "inputName",
+    "androidValue": "frAddNewPassenger_etAddName",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "inputSurname",
+    "androidValue": "frAddNewPassenger_etAddLastName",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "gender",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.widget.LinearLayout/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup/android.widget.CheckBox[1]",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "birthDate",
+    "androidValue": "frAddNewPassenger_etAddDateOfBirth",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "emailAdress",
+    "androidValue": "frAddNewPassenger_etAddEmail",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "Nationality",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.widget.LinearLayout/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.widget.CheckBox[1]",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "saveButton",
+    "androidValue": "frAddNewPassenger_btnAddPassenger",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "tckNo",
+    "androidValue": "frAddNewPassenger_etAddTCKN",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "adult2",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.widget.ExpandableListView/android.widget.RelativeLayout[4]/android.widget.RelativeLayout/android.widget.ImageView",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "addPassenger2",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.widget.ExpandableListView/android.widget.RelativeLayout[5]/android.widget.RelativeLayout/android.widget.TextView[2]",
+    "androidType": "xpath",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "btnPassengerContinue",
+    "androidValue": "frPickPassenger_btnContinue",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "btnCancel",
+    "androidValue": "toolbarBase_tvCancel",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  },
+  {
+    "key": "btnCancelContinue",
+    "androidValue": "dgBase_btnPositive",
+    "androidType": "id",
+    "iosValue": "",
+    "iosType": ""
+  }
+
+]
