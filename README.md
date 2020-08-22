@@ -11,4 +11,10 @@ Proje senaryosu<br>
 -Devam edilir.<br>
 -Yolcuların bilgileri girilir.<br>
 -Devam edilir.<br>
--Hes sayfasında cancel edilir.
+-Hes sayfasında cancel edilir.<br>
+Not: Android api28 android 9.0 simulatoründe test edilmiştir.
+Gerçek cihazda çalışmak isteyenler usb hata ayıklama modunu aktif bir şekilde usb bağlantısı yapılıp. Sonra gerekli desire capabilitiesler verildiğinde çalışacaktır.
+
+#TODO
+Uçuş bilgilerinin geldiği kontrol edilir.<br>
+Dinamik platform hookImp classına dahil edilmesi.<br>
