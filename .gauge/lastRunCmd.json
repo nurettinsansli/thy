@@ -1,8 +1,0 @@
-[
-	"C:\\Program Files\\gauge\\bin\\gauge.exe",
-	"run",
-	"--machine-readable",
-	"--hide-suggestion",
-	"--simple-console",
-	"C:/Users/Testinium/IdeaProjects/thy/specs/MainPage/main.spec:4"
-]
