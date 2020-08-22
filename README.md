@@ -6,6 +6,7 @@ Test automation framework: Gauge<br>
 Automation tool: Appium<br>
 
 
+
 # thy
 Proje senaryosu<br>
 -Uygulamanın ana sayfası açılır.<br>
@@ -21,6 +22,13 @@ Proje senaryosu<br>
 -Devam edilir.<br>
 -Hes sayfasında cancel edilir.<br>
 
+
+TODO<br>
+-Uçuş bilgilerinin geldiği kontrol edilir.<br>
+-Dinamik platform hookImp classına dahil edilmesi.<br>
+
+# Ortamın konfigürasyonu
+
 Not: Android api28 android 9.0 simulatoründe test edilmiştir.
 Gerçek cihazda çalışmak isteyenler usb hata ayıklama modunu aktif bir şekilde usb bağlantısı yapılıp. Sonra gerekli desire capabilitiesler verildiğinde çalışacaktır.
 <br>Gerekli komutlar<br>
@@ -29,6 +37,12 @@ Gerçek cihazda çalışmak isteyenler usb hata ayıklama modunu aktif bir şeki
 -adb shell ve sonra                                           
 -dumpsys window windows | grep -e 'mCurrentFocus'<br> // Uygulamamızın appPackage/AppAcktivity sini öğreniyoruz. Not: adb shell'i başlatmadan öğrenemeyiz.
 
-TODO<br>
--Uçuş bilgilerinin geldiği kontrol edilir.<br>
--Dinamik platform hookImp classına dahil edilmesi.<br>
+Appium Desired Capabilities
+{
+  "appPackage": "com.turkishairlines.mobile",
+  "appActivity": "com.turkishairlines.mobile.ui.main.MainActivity",
+  "deviceName": "Android Emulator",
+  "platformVersion": "9.0",
+  "udid": "emulator-5554",
+  "platformName": "Android"
+}
