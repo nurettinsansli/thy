@@ -1,6 +1,7 @@
 package com.testinium.thy;
 
 import com.thoughtworks.gauge.Step;
+import com.thy.helper.ReadFromCsv;
 import com.thy.model.SelectorInfo;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.functions.ExpectedCondition;
@@ -15,6 +16,8 @@ import java.util.List;
 
 public class StepImplementation extends HookImpl {
     private Logger logger = LoggerFactory.getLogger(getClass());
+    static String ROOT = System.getProperty("user.dir");
+    String fileLocation = ROOT + "\\resources\\testuser.csv";
 
     public List<MobileElement> findElements(By by) throws Exception {
         List<MobileElement> webElementList = null;
@@ -77,9 +80,9 @@ public class StepImplementation extends HookImpl {
         appiumDriver.findElement(By.id(id)).click();
     }
 
-    @Step("<id> kalkis kodu gir.")
-    public void departureCode(String id) {
-        appiumDriver.findElement(By.id(id)).sendKeys("SAW");
+    @Step("<id><passengers> kalkis kodu gir.")
+    public void departureCode(String id,int passenger) {
+        appiumDriver.findElement(By.id(id)).sendKeys(ReadFromCsv.readFromCsv(fileLocation,0,passenger));
     }
 
     @Step("<id> havalimani sec.")
@@ -92,9 +95,9 @@ public class StepImplementation extends HookImpl {
         appiumDriver.findElement(By.id(id)).click();
     }
 
-    @Step("<id> varis havalimani kodu gir.")
-    public void toAirportCode(String id) throws Exception {
-        appiumDriver.findElement(By.id(id)).sendKeys("ESB");
+    @Step("<id><passengers> varis havalimani kodu gir.")
+    public void toAirportCode(String id,int passenger) throws Exception {
+        appiumDriver.findElement(By.id(id)).sendKeys(ReadFromCsv.readFromCsv(fileLocation,1,passenger));
     }
 
     @Step("<id> varis havalimani sec.")
@@ -181,14 +184,14 @@ public class StepImplementation extends HookImpl {
         appiumDriver.findElement(By.id(id)).click();
     }
 
-    @Step("<id> ad gir.")
-    public void inputName(String id) {
-        appiumDriver.findElement(By.id(id)).sendKeys("Test");
+    @Step("<id><passengers> ad gir.")
+    public void inputName(String id,int passenger) {
+        appiumDriver.findElement(By.id(id)).sendKeys(ReadFromCsv.readFromCsv(fileLocation,2,passenger));
     }
 
-    @Step("<id> soyad gir.")
-    public void inputSurname(String id) {
-        appiumDriver.findElement(By.id(id)).sendKeys("User");
+    @Step("<id><passengers> soyad gir.")
+    public void inputSurname(String id,int passenger) {
+        appiumDriver.findElement(By.id(id)).sendKeys(ReadFromCsv.readFromCsv(fileLocation,3,passenger));
     }
 
     @Step("<xpath> cinsiyet gir.")
@@ -196,14 +199,14 @@ public class StepImplementation extends HookImpl {
         appiumDriver.findElement(By.xpath(xpath)).click();
     }
 
-    @Step("<id> dogum tarihi gir.")
-    public void birthDate(String id) {
-        appiumDriver.findElement(By.id(id)).sendKeys("19-08-1985");
+    @Step("<id><passengers> dogum tarihi gir.")
+    public void birthDate(String id,int passenger) {
+        appiumDriver.findElement(By.id(id)).sendKeys(ReadFromCsv.readFromCsv(fileLocation,4,passenger));
     }
 
-    @Step("<id> email gir.")
-    public void emailAdress(String id) {
-        appiumDriver.findElement(By.id(id)).sendKeys("testuser@gmail.com");
+    @Step("<id><passengers> email gir.")
+    public void emailAdress(String id,int passenger) {
+        appiumDriver.findElement(By.id(id)).sendKeys(ReadFromCsv.readFromCsv(fileLocation,5,passenger));
     }
 
     @Step("<xpath> uyruk sec.")
@@ -211,9 +214,9 @@ public class StepImplementation extends HookImpl {
         appiumDriver.findElement(By.xpath(xpath)).click();
     }
 
-    @Step("<id> tckNo gir.")
-    public void tckNo(String id) {
-        appiumDriver.findElement(By.id(id)).sendKeys("60393950870");
+    @Step("<id><passengers> tckNo gir.")
+    public void tckNo(String id,int passenger) {
+        appiumDriver.findElement(By.id(id)).sendKeys(ReadFromCsv.readFromCsv(fileLocation,6,passenger));
     }
 
     @Step("<id> save butonuna tikla.")

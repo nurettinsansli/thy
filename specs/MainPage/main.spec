@@ -16,7 +16,7 @@ Buy Ticket
 *"frDashboard_llFrom" kalkis havalimani tikla.
 
 *"1" saniye bekle
-*"frAirportSelection_etSearch" kalkis kodu gir.
+*"frAirportSelection_etSearch""1" kalkis kodu gir.
 
 *"1" saniye bekle
 *"itemAirport_tvBottom" havalimani sec.
@@ -25,7 +25,7 @@ Buy Ticket
 *"frDashboard_llTo" varis havalimani tikla.
 
 *"1" saniye bekle
-*"frAirportSelection_etSearch" varis havalimani kodu gir.
+*"frAirportSelection_etSearch""1" varis havalimani kodu gir.
 
 *"1" saniye bekle
 *"itemAirport_tvBottom" varis havalimani sec.
@@ -58,25 +58,25 @@ Buy Ticket
 *"frPickPassengerlistitemadd_tvShortName" yolcu ekle.
 
 *"1" saniye bekle
-*"frAddNewPassenger_etAddName" ad gir.
+*"frAddNewPassenger_etAddName""1" ad gir.
 
 *"1" saniye bekle
-*"frAddNewPassenger_etAddLastName" soyad gir.
+*"frAddNewPassenger_etAddLastName""1" soyad gir.
 
 *"1" saniye bekle
 *"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.widget.LinearLayout/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup/android.widget.CheckBox[1]" cinsiyet gir.
 
 *"1" saniye bekle
-*"frAddNewPassenger_etAddDateOfBirth" dogum tarihi gir.
+*"frAddNewPassenger_etAddDateOfBirth""1" dogum tarihi gir.
 
 *"1" saniye bekle
-*"frAddNewPassenger_etAddEmail" email gir.
+*"frAddNewPassenger_etAddEmail""1" email gir.
 
 *"1" saniye bekle
 *"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.widget.LinearLayout/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.widget.CheckBox[1]" uyruk sec.
 
 *"1" saniye bekle
-*"frAddNewPassenger_etAddTCKN" tckNo gir.
+*"frAddNewPassenger_etAddTCKN""1" tckNo gir.
 
 *"1" saniye bekle
 *"frAddNewPassenger_btnAddPassenger" save butonuna tikla.
@@ -88,25 +88,25 @@ Buy Ticket
 *"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.widget.ExpandableListView/android.widget.RelativeLayout[5]/android.widget.RelativeLayout/android.widget.TextView[2]" 2. yolcu ekle.
 
 *"1" saniye bekle
-*"frAddNewPassenger_etAddName" ad gir.
+*"frAddNewPassenger_etAddName""2" ad gir.
 
 *"1" saniye bekle
-*"frAddNewPassenger_etAddLastName" soyad gir.
+*"frAddNewPassenger_etAddLastName""2" soyad gir.
 
 *"1" saniye bekle
 *"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.widget.LinearLayout/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup/android.widget.CheckBox[1]" cinsiyet gir.
 
 *"1" saniye bekle
-*"frAddNewPassenger_etAddDateOfBirth" dogum tarihi gir.
+*"frAddNewPassenger_etAddDateOfBirth""2" dogum tarihi gir.
 
 *"1" saniye bekle
-*"frAddNewPassenger_etAddEmail" email gir.
+*"frAddNewPassenger_etAddEmail""2" email gir.
 
 *"1" saniye bekle
 *"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.widget.LinearLayout/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.widget.CheckBox[1]" uyruk sec.
 
 *"1" saniye bekle
-*"frAddNewPassenger_etAddTCKN" tckNo gir.
+*"frAddNewPassenger_etAddTCKN""2" tckNo gir.
 
 *"1" saniye bekle
 *"frAddNewPassenger_btnAddPassenger" save butonuna tikla.
