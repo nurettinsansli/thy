@@ -7,7 +7,7 @@ Automation tool: Appium<br>
 
 
 
-# thy
+# Test senaryosu
 Proje senaryosu<br>
 -Uygulamanın ana sayfası açılır.<br>
 -Tek yön seçilir.<br>
@@ -37,12 +37,12 @@ Gerçek cihazda çalışmak isteyenler usb hata ayıklama modunu aktif bir şeki
 -adb shell ve sonra                                           
 -dumpsys window windows | grep -e 'mCurrentFocus'<br> // Uygulamamızın appPackage/AppAcktivity sini öğreniyoruz. Not: adb shell'i başlatmadan öğrenemeyiz.
 
-Appium Desired Capabilities
-{
-  "appPackage": "com.turkishairlines.mobile",
-  "appActivity": "com.turkishairlines.mobile.ui.main.MainActivity",
-  "deviceName": "Android Emulator",
-  "platformVersion": "9.0",
-  "udid": "emulator-5554",
-  "platformName": "Android"
-}
+Appium Desired Capabilities<br>
+{<br>
+  "appPackage": "com.turkishairlines.mobile",<br>
+  "appActivity": "com.turkishairlines.mobile.ui.main.MainActivity",<br>
+  "deviceName": "Android Emulator",<br>
+  "platformVersion": "9.0",<br>
+  "udid": "emulator-5554",<br>
+  "platformName": "Android"<br>
+}<br>
