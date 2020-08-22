@@ -1,3 +1,11 @@
+# Proje
+Bu projenin amacı mobil platformda test otomasyon geliştirmek. Türk Hava Yolları mobil uygulaması seçilmiştir. <br>
+Programming Languge: Java<br>
+Build Automation Tool: Maven<br>
+Test automation framework: Gauge<br>
+Automation tool: Appium<br>
+
+
 # thy
 Proje senaryosu<br>
 -Uygulamanın ana sayfası açılır.<br>
@@ -20,6 +28,6 @@ Gerçek cihazda çalışmak isteyenler usb hata ayıklama modunu aktif bir şeki
 -adb shell                                             
 -dumpsys window windows | grep -e 'mCurrentFocus'<br>
 
-#TODO<br>
+TODO<br>
 -Uçuş bilgilerinin geldiği kontrol edilir.<br>
 -Dinamik platform hookImp classına dahil edilmesi.<br>
