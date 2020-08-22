@@ -12,9 +12,14 @@ Proje senaryosu<br>
 -Yolcuların bilgileri girilir.<br>
 -Devam edilir.<br>
 -Hes sayfasında cancel edilir.<br>
+
 Not: Android api28 android 9.0 simulatoründe test edilmiştir.
 Gerçek cihazda çalışmak isteyenler usb hata ayıklama modunu aktif bir şekilde usb bağlantısı yapılıp. Sonra gerekli desire capabilitiesler verildiğinde çalışacaktır.
+<br>Gerekli komutlar<br>
+-adb devices<br><br>
+-adb shell                                             
+-dumpsys window windows | grep -e 'mCurrentFocus'<br>
 
-#TODO
-Uçuş bilgilerinin geldiği kontrol edilir.<br>
-Dinamik platform hookImp classına dahil edilmesi.<br>
+#TODO<br>
+-Uçuş bilgilerinin geldiği kontrol edilir.<br>
+-Dinamik platform hookImp classına dahil edilmesi.<br>
