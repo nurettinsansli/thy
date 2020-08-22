@@ -25,8 +25,9 @@ Not: Android api28 android 9.0 simulatoründe test edilmiştir.
 Gerçek cihazda çalışmak isteyenler usb hata ayıklama modunu aktif bir şekilde usb bağlantısı yapılıp. Sonra gerekli desire capabilitiesler verildiğinde çalışacaktır.
 <br>Gerekli komutlar<br>
 -adb devices<br><br>
--adb shell                                             
--dumpsys window windows | grep -e 'mCurrentFocus'<br>
+
+-adb shell ve sonra                                           
+-dumpsys window windows | grep -e 'mCurrentFocus'<br> // Uygulamamızın appPackage/AppAcktivity sini öğreniyoruz. Not: adb shell'i başlatmadan öğrenemeyiz.
 
 TODO<br>
 -Uçuş bilgilerinin geldiği kontrol edilir.<br>
